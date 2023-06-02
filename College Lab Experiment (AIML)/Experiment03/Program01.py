@@ -1,14 +1,16 @@
-import numpy as np
-# row_vector = np.array([1, 2, 3, 4, 5]) # Row vector...
-# column_vector = np.array([[1], [2], [3], [4], [5]]) # Column vector...
-# print(row_vector[0])
-# print(row_vector[1])
-# print(row_vector[2])
-# print(row_vector[3])
-# print(row_vector[4])
+# PROGRAM TO PERFORM OPERATIONS On MATRICES AND VECTORS...
 
-# vector_matrix = ([[1, 2, 3],[4, 5, 6]])
-# print(vector_matrix)
+import numpy as np
+row_vector = np.array([1, 2, 3, 4, 5]) # Row vector...
+column_vector = np.array([[1], [2], [3], [4], [5]]) # Column vector...
+print(row_vector[0])
+print(row_vector[1])
+print(row_vector[2])
+print(row_vector[3])
+print(row_vector[4])
+
+vector_matrix = ([[1, 2, 3],[4, 5, 6]])
+print(vector_matrix)
 
 # ADDITION OF TWO MATRICES :
 x = np.array([[1, 2], [4, 5]])  # Matrix 1

@@ -1,10 +1,11 @@
-# -*- coding: utf-8 -*-
+# PROGRAM TO SOLVE SYSTEM OF LINEAR EQUATIONS IN ONE VARIABLE...
+
 """
 Created on Fri Mar  3 15:38:18 2023
-Experiment 02 (On Equations)...
-@author: Student
+Experiment 02 (On Linear Equations in one variables)...
+@author: Haysten D'costa
 """
-def equation(a, b, c, d):
+def equation(a, b, c, d): # Function definition...
     if(a == c):
         print("Equation has Infinitely many solutions...")
     elif(d == b):

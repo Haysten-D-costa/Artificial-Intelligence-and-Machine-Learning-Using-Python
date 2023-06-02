@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 10 15:25:06 2023
-Experiment 02 : Program 01
-@author: Master Haysten D'costa
-"""
+# SOLVING SYSTEM OF LINEAR EQUATION IN MORE THAN ONE (MULTIPLE) VARIABLE...
+
 import numpy as np
 import numpy.linalg as la
 
