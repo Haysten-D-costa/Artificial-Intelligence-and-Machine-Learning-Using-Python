@@ -1,8 +1,9 @@
-# Implementation of BFS - Breadth First Search Algorithm : 
+''' 
+    Implementation of BFS - Breadth First Search Algorithm : 
 
-# Breadth-first traversal is a graph traversal technique that visits all the vertices (nodes) in the graph,
-# level by level, exploring all the neighbors of a node before moving on to the next level.
-
+    Breadth-first traversal is a graph traversal technique that visits all the vertices (nodes) in the graph,
+    level by level, exploring all the neighbors of a node before moving on to the next level.
+'''
 graph = { # created a graph for bfs traversal using dictionary....
     'A': ['B', 'C'],
     'B': ['D', 'E'],

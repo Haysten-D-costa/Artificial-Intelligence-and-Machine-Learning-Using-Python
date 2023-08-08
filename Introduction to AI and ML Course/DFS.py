@@ -1,9 +1,10 @@
-# Implementation of DFS - Depth First Search Algorithm : 
+''' 
+    Implementation of DFS - Depth First Search Algorithm : 
 
-# The given code defines a function called dfs_traversal, which performs a Depth-First Search (DFS) traversal on a graph. 
-# DFS is a graph traversal algorithm that starts at a specified node (usually called the "start/root" node) 
-# and explores as far as possible along each branch before backtracking.
-
+    The given code defines a function called dfs_traversal, which performs a Depth-First Search (DFS) traversal on a graph. 
+    DFS is a graph traversal algorithm that starts at a specified node (usually called the "start/root" node) 
+    and explores as far as possible along each branch before backtracking.
+'''
 graph = {
     'A': ['B', 'C'],
     'B': ['D', 'E'],
