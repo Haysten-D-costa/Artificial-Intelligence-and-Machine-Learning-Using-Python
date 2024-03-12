@@ -1,0 +1,8 @@
+vec1=seq(1,10)
+cat("vec1",vec1)
+vec2=seq(1,20,by=2)
+cat("\nvec2",vec2)
+vec3=seq(length=4,from=-10,by=0.2)
+cat("\nvec3",vec3)
+vec4=rep(x=5,times=5)
+cat("\nvec4",vec4)
