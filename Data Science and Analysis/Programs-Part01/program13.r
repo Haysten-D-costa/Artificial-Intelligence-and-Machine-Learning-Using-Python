@@ -1,11 +1,9 @@
-print("enter a number")
-x=readline();
-x=as.integer(x);
-fact=1;
-temp=1;
-while (temp <= x) {
-  fact=fact*temp;
-  # update expression 
-  temp=temp+1;
+num = readline("Enter a number : ")
+num = as.integer(num)
+
+fact = 1
+while (num > 0) {
+  fact = fact * num
+  num = num - 1
 }
-print(fact)
+print(paste(fact))

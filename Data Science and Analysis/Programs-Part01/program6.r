@@ -7,3 +7,4 @@ val <- switch(
   "Geeks5", 
   "Geeks6"
 ) 
+print(paste(val))

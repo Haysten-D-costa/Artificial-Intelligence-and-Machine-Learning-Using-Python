@@ -1,11 +1,13 @@
-n=readline("enter no of elements")
-cat("enter ",n," values")
-vec=c()
-for(i in 1:n)
-{
-  t=readline();
-  t=as.numeric(t);
-  vec=append(vec,t);
-  print(t)
+n <- readline("Enter no. of entries : ")
+print(paste("Enter ", n, " numbers  : "))
+
+vector = c();
+
+for(i in 1:n) {
+  {
+    num = readline()
+    num = as.integer(num)
+    vector = append(vector, num)
+  }
 }
-print(vec)
+print(paste(vector))
