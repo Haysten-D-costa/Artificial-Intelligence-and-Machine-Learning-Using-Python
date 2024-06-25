@@ -1,0 +1,5 @@
+"rating" "animal" "country" "avg_sleep_hours"
+"1" 1 "koala" "Australia" 21
+"2" 2 "hedgehog" "Italy" 18
+"3" 3 "sloth" "Peru" 17
+"4" 4 "panda" "China" 10

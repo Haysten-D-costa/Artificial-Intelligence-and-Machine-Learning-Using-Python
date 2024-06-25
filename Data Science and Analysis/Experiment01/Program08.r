@@ -8,5 +8,11 @@ min_max = function(numbers) {
   print(paste("Max : ", max));
   print(paste("Min : ", min));
 }
-numbers = c(12, 5, 8, 20, 3, 15, 7);
+numbers = c();
+# numbers = c(12, 5, 8, 20, 3, 15, 7);
+n = as.numeric(readline("Enter number of numbers : "));
+for(i in 1:n) {
+  num = as.numeric(readline());
+  numbers = append(numbers, num);
+}
 min_max(numbers);

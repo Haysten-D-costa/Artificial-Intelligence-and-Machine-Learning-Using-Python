@@ -11,7 +11,7 @@ summary_subject2 = summary(student_marks$Sub2)
 summary_subject3 = summary(student_marks$Sub3)
 
 # Print summaries
-cat("Summary for Subject 1:\n")
+cat("\nSummary for Subject 1:\n")
 print(summary_subject1)
 cat("\n")
 

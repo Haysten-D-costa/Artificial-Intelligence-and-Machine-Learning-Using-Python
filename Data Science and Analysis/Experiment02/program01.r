@@ -4,4 +4,5 @@ student_marks = data.frame(  # Create data frame
     Sub2 = c(75, 82, 88, 70, 79), 
     Sub3 = c(90, 85, 95, 72, 88)
 )
+cat("\n")
 print(student_marks) # Print the data frame

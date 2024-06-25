@@ -11,6 +11,5 @@ boxplot(
     main="Boxplot of Marks Distribution",
     xlab="Subject",
     ylab="Marks",
-    col=c("lightblue", "lightgreen", "lightyellow"),
     names=c("Subject 1", "Subject 2", "Subject 3")
 )
