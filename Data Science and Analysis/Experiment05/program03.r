@@ -6,5 +6,5 @@ boxplot(
     as.matrix(marks_summary),
     main="Multiple box Plots", 
     ylab="Count", 
-    beside=TRUE
+    # beside=TRUE
 )

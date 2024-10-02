@@ -6,7 +6,7 @@ df1 <- data.frame(
   Age = c(25, 30, 28, 22)
 )
 
-df2 <- data.frame(
+df2 <- data.frame(7
   ID = c(1, 2, 5),
   Gender = c("M", "F", "F"),
   Salary = c(50000, 60000, 55000)

@@ -1,5 +1,5 @@
 #3 water jug problem
-capacity = (12, 8, 5)
+capacity = (8, 5, 3)
 x = int(input("Enter the maximum capacity of jug A: "))
 y = int(input("Enter the maximum capacity of jug B: "))
 z = int(input("Enter the maximum capacity of jug C: "))
@@ -78,8 +78,8 @@ def get_all_states(state):
 
     return False
 
-initial_state = (12, 0, 0)
-print("Starting work...\n")
+initial_state = (8, 0, 0)
+print("Solution : \n")
 get_all_states(initial_state)
 ans.reverse()
 for i in ans:

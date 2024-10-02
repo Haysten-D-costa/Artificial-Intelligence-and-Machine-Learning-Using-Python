@@ -16,4 +16,17 @@ data <- data.frame(
 )
 
 sem_5_avg_marks <- mean(data$Subject1_IT_marks[data$Sem == 5] + data$Subject2_IT_marks[data$Sem == 5] + data$Subject3_IT_marks[data$Sem == 5])
-print(sem_5_avg_marks)
+# sem5data <- subset(data, Sem == 5)
+# avg_S1_IT <- mean(sem5data$Subject1_IT_marks)
+# avg_S2_IT <- mean(sem5data$Subject2_IT_marks)
+# avg_S3_IT <- mean(sem5data$Subject3_IT_marks)
+# avg_S1_Sem <- mean(sem5data$Subject1_Semester_Theory_marks)
+# avg_S2_Sem <- mean(sem5data$Subject2_Semester_Theory_marks)
+# avg_S3_Sem <- mean(sem5data$Subject3_Semester_Theory_marks)
+
+
+# avg_marks <- data.frame (
+#   exam <- c("IT1", "IT2", "IT3", "SEM1", "SEM2", "SEM3"),
+#   marks <- c(avg_S1_IT, avg_S2_IT, avg_S3_IT, avg_S1_Sem, avg_S2_Sem, avg_S3_Sem)
+# )
+# print(avg_marks)

@@ -7,5 +7,5 @@ super_sleepers <- data.frame(rating, animal, country, avg_sleep_hours)
 data=super_sleepers;
 write.table(super_sleepers, "data.txt")
 example <- read.table('data.txt', header = TRUE, sep = " ")
-x=mean(as.numeric(example$rating),na.rm = TRUE)
+x=mean(as.numeric(example$avg_sleep_hours),na.rm = TRUE)
 print(x)

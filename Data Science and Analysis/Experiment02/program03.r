@@ -5,7 +5,8 @@ student_marks = data.frame(  # Create data frame
 )
 
 # Plot histograms for each subject
-hist(student_marks$Sub1,
+hist(
+  student_marks$Sub1,
   main = "Subject 1 Marks",
   xlab = "Marks"
 )
